@@ -1,11 +1,22 @@
+import React from 'react';
+import Sidebar from '../src/components/Sidebar/Index'
 
-import './App.css';
+import "./App.css";
+
+
 
 function App() {
+  
   return (
-<h1>hello</h1>
+   
 
-    
+    // sidenav
+<Sidebar/>
+    // news feed
+
+    // widgets
+
+
   );
 }
 

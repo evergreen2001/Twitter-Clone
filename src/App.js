@@ -1,22 +1,15 @@
-import React from 'react';
-import Sidebar from '../src/components/Sidebar/Index'
+import React from "react";
+import Sidebar from "../src/components/Sidebar/Index";
 
 import "./App.css";
 
-
-
 function App() {
-  
   return (
-   
-
     // sidenav
-<Sidebar/>
+    <Sidebar />
     // news feed
 
     // widgets
-
-
   );
 }
 

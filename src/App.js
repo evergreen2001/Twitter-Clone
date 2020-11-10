@@ -1,15 +1,21 @@
 import React from "react";
 import Sidebar from "../src/components/Sidebar/Index";
+import Feed from "./components/Feed/Index";
+
 
 import "./App.css";
 
 function App() {
   return (
-    // sidenav
+    <div className="app">
+{/* sidenav */}
     <Sidebar />
-    // news feed
+    {/* news feed */}
+    <Feed/>
 
-    // widgets
+    {/* widgets */}
+    </div>
+    
   );
 }
 

@@ -16,7 +16,7 @@ import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <TwitterIcon />
+      <TwitterIcon className="twitter-icon" />
 
       <SidebarOption Icon={HomeIcon} active text="Home" />
       <SidebarOption Icon={SearchIcon} text="Explore" />

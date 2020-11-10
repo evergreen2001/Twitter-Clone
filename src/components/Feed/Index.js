@@ -3,10 +3,51 @@ import "./feed.css";
 
 function index() {
   return (
-    <div>
-      <div className="feed">
+    <div className="feed">
+      <div className="feed__header">
         <h2>Home</h2>
       </div>
+
+
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+      <h2> Time</h2>
+
     </div>
   );
 }

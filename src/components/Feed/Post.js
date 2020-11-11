@@ -28,9 +28,11 @@ export const Post = ({
           <div className="post__headertext">
             <h3>
               Ido Dickson
-              <span>
+              <span className="post__headerspecial">
                 <VerifiedUserIcon className="post__badge" />
-                @ido Dickson
+              @ido dickson
+
+            
               </span>
             </h3>
 
@@ -51,6 +53,7 @@ export const Post = ({
             <FavoriteBorderIcon fontSize="small" />
             <PublishIcon fontSize="small" />
           </div>
+
           </div>
       </div>
     

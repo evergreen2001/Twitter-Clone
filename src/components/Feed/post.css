@@ -1,0 +1,19 @@
+
+.post{
+    display:flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--twitter-background);
+    padding-bottom: 10px;
+}
+
+.post__body img{
+    border-radius: 20px;
+   width:100%;
+}
+
+.post__footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+}
+

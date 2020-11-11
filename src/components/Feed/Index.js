@@ -1,6 +1,8 @@
 import React from "react";
 import "./feed.css";
 import Tweetbox from "./Tweetbox";
+import Post  from "./Post";
+
 
 
 function index() {
@@ -12,45 +14,9 @@ function index() {
 
 
 <Tweetbox/>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
-      <h2> Time</h2>
 
+<Post/>
+     
     </div>
   );
 }

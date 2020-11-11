@@ -22,7 +22,8 @@
 
 .twitter-icon {
   font-size: 20px;
-  color: var(--twitter-background) !important;
+  color: var(--twitter-color) !important;
   margin-left: 20px;
   margin-bottom: 20px;
+  
 }

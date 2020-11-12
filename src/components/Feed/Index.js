@@ -24,9 +24,9 @@ function Index() {
         <Post
           displayName={post.displayName}
           username={post.username}
-          verified={true}
+          verified={post.verified}
           text={post.text}
-          image="https://media.giphy.com/media/3oz8xOUyiwvMfLqc4o/source.gif"
+          image={post.image}
           avatar={post.avatar}
         />
       ))}

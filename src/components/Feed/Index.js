@@ -4,8 +4,11 @@ import Tweetbox from "./Tweetbox";
 import Post from "./Post";
 
 import db from "../../firebase";
+import ReactFlipMove from 'react-flip-move'
+
 function Index() {
   const [posts, setPosts] = useState([]);
+  
 
   useEffect(() => {
     db.collection("posts").onSnapshot((snapshot) =>
@@ -20,8 +23,12 @@ function Index() {
 
       <Tweetbox />
 
+<ReactFlipMove>
+
+
       {posts.map((post) => (
         <Post
+        key={post.text}
           displayName={post.displayName}
           username={post.username}
           verified={post.verified}
@@ -30,6 +37,9 @@ function Index() {
           avatar={post.avatar}
         />
       ))}
+
+</ReactFlipMove>
+
     </div>
   );
 }

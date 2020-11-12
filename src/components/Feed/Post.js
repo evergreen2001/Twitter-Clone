@@ -21,42 +21,34 @@ export const Post = ({
   return (
     <div className="post">
       <div className="post__avatar">
-        <Avatar />
+        <Avatar src={avatar} />
       </div>
       <div className="post__body">
         <div className="post__header">
           <div className="post__headertext">
             <h3>
-              Ido Dickson
+              {displayName}
               <span className="post__headerspecial">
-                <VerifiedUserIcon className="post__badge" />
-              @ido dickson
-
-            
+                {verified && <VerifiedUserIcon className="post__badge" />}@
+                {username}
               </span>
             </h3>
 
             <div className="post__headerdescription">
-              <p>Hello world</p>
+              <p>{text}</p>
             </div>
           </div>
-          </div>
-          <img
-            src="https://media.giphy.com/media/3oz8xOUyiwvMfLqc4o/source.gif"
-            alt="post"
-          />
-        
+        </div>
+        <img src={image} alt="post" />
 
-          <div className="post__footer">
-            <ChatBubbleOutlineIcon fontSize="small" />
-            <RepeatIcon fontSize="small" />
-            <FavoriteBorderIcon fontSize="small" />
-            <PublishIcon fontSize="small" />
-          </div>
-
-          </div>
+        <div className="post__footer">
+          <ChatBubbleOutlineIcon fontSize="small" />
+          <RepeatIcon fontSize="small" />
+          <FavoriteBorderIcon fontSize="small" />
+          <PublishIcon fontSize="small" />
+        </div>
       </div>
-    
+    </div>
   );
 };
 
